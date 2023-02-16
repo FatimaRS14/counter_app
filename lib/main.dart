@@ -1,6 +1,6 @@
 
 
-import 'package:counterr_app5b/screens/home_screen.dart';
+import 'package:counterr_app5b/screens/counter_screen.dart';
 import 'package:flutter/material.dart';
 
 void main(List<String> args) {
@@ -16,7 +16,7 @@ class MiApp extends StatelessWidget{
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomeScreeen(),
+      home: CounterScreeen(),
       
       
     );
